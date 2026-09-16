@@ -1,0 +1,13 @@
+# Questa è la cartella dell'ambiente virtuale Python
+.venv/
+__pycache__/
+
+# Questi sono i file temporanei inutili che crea LaTeX
+*.aux
+*.log
+*.out
+*.gz
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
