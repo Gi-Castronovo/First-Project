@@ -1,0 +1,47 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\geometry{a4paper, margin=2cm}
+
+\title{\textbf{Analisi di Missione Interplanetaria: \\ Ottimizzazione delle Finestre di Lancio Terra-Marte tramite Porkchop Plots}}
+\author{Il tuo nome}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Questo report illustra l'analisi astrodinamica per l'identificazione delle finestre di lancio ottimali in una missione interplanetaria Terra-Marte. Attraverso l'uso delle effemeridi planetarie (JPL) e la risoluzione numerica del Problema di Lambert, è stato sviluppato uno script Python per la generazione di Porkchop Plots, permettendo di minimizzare il $\Delta V$ totale e valutare la fattibilità della missione.
+\end{abstract}
+
+\section{Introduzione}
+% Contesto delle missioni marziane e importanza delle finestre di lancio.
+
+\section{Inquadramento Teorico}
+\subsection{Effemeridi e Posizione Planetaria}
+% Spiegazione di come ricaviamo r1 (Terra) e r2 (Marte) usando i dati del JPL.
+
+\subsection{Il Problema di Lambert}
+% Formulazione matematica del Boundary Value Problem (BVP).
+% Il Teorema di Lambert e il calcolo della traiettoria di trasferimento.
+
+\subsection{Calcolo del $\Delta V$ e Costo Energetico ($C_3$)}
+% Come passiamo dalle velocità eliocentriche fornite da Lambert 
+% all'effettivo costo di carburante (Delta-V e C3) per il veicolo.
+
+\section{Implementazione Numerica}
+% Architettura del codice Python, spiegazione della griglia di partenza/arrivo.
+
+\section{Risultati: Analisi dei Porkchop Plots}
+% Qui inseriremo i grafici a curve di livello generati da matplotlib.
+% Analizzeremo le famiglie di trasferimento (Type I e Type II).
+
+\section{Conclusioni}
+
+\end{document}
